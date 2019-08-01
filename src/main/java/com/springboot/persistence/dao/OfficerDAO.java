@@ -12,5 +12,5 @@ public interface OfficerDAO {
     List<Officer> findAll();;
     long count();
     void delete(Officer officer);
-    boolean existsById(Integer id)
+    boolean existsById(Integer id);
 }
